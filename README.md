@@ -38,11 +38,11 @@ Following functions can be called:
 
 ### Example
 #### Screenshot of the signal displayed on the oscilloscope:
-![](scope_screenshot.png)
+![](/pictures/scope_screenshot.png)
 #### Screenshot of the MATLAB command-window:
-![](acquireAndDisplay_properties_screenshot.png)
+![](/pictures/acquireAndDisplay_properties_screenshot.png)
 #### Screenshot of the plotted data:
-![](acquireAndDisplay_plot_screenshot.png)
+![](/pictures/acquireAndDisplay_plot_screenshot.png)
 
 ### Author
 **Daniel Duller** - [dadul96](https://github.com/dadul96)
