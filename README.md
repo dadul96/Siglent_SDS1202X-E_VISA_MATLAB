@@ -9,3 +9,18 @@ Supported models:
 - SDS1xxxX/1xxxX+ - series
 - SDS1xxxX-E/X-C - series
 
+### Installation
+There is no installation required. Just download the MATLAB-functions (from [Releases](https://github.com/dadul96/Siglent_SDS1202X-E_VISA_MATLAB/releases)) and move them into your work folder.
+
+### Requirements
+NI-Visa
+
+### Built With
+* [MATLAB 2019a](https://mathworks.com/products/matlab.html)
+* [NI-VISA 19.5](https://www.ni.com/en-us/support/downloads/drivers/download.ni-visa.html#329456)
+
+### Author
+**Daniel Duller** - [dadul96](https://github.com/dadul96)
+
+### License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
