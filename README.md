@@ -10,7 +10,7 @@ MATLAB functions for easy, data acquisition from the Siglent SDS1202X-E oscillos
 - SDS1xxxX-E/X-C - series
 
 ### Installation
-There is no installation required. Just download the MATLAB-functions (from [Releases](https://github.com/dadul96/Siglent_SDS1202X-E_VISA_MATLAB/releases)) and move them into your work folder.
+There is no installation required. Just download the MATLAB-functions (\*.m-files from [Releases](https://github.com/dadul96/Siglent_SDS1202X-E_VISA_MATLAB/releases)) and move them into your work folder.
 
 ### Requirements
 * [NI-VISA 19.5](https://www.ni.com/en-us/support/downloads/drivers/download.ni-visa.html#329456)
