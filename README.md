@@ -32,14 +32,14 @@ Following functions can be called:
     - **connStr** - Same as in the functions above.
     - **channel** - Same as in the functions above.
 * **acquireAndDisplay(connStr, channel)** (uses `acquireOscilloscopeData`)
-    - Plots the acquired data into a new figure. Besides that it returns the most important signal properties to the command-window (see example below).
+    - Plots the acquired data into a new figure. Besides that, it returns the most important signal properties to the command window (see example below).
     - **connStr** - Same as in the functions above.
     - **channel** - Same as in the functions above.
 
 ### Example
 #### Screenshot of the signal displayed on the oscilloscope:
 ![](/pictures/scope_screenshot.png)
-#### Screenshot of the MATLAB command-window:
+#### Screenshot of the MATLAB command window:
 ![](/pictures/acquireAndDisplay_properties_screenshot.png)
 #### Screenshot of the plotted data:
 ![](/pictures/acquireAndDisplay_plot_screenshot.png)
