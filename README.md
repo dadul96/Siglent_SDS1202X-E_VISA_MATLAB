@@ -1,5 +1,5 @@
 # Siglent_SDS1202X-E_VISA_MATLAB
-MATLAB functions for easy, data acquisition from the Siglent SDS1202X-E oscilloscope via USB or Ethernet. **The input-buffer size automatically scales depending on the oscilloscope's sampling settings!**
+MATLAB 2019a functions for easy, data acquisition from the Siglent SDS1202X-E oscilloscope via USB or Ethernet. **The input-buffer size automatically scales depending on the oscilloscope's sampling settings!**
 
 ### Supported models
 - SDS1xxxCFL - series
