@@ -61,9 +61,9 @@ flushoutput(visaObj);
 
 % acquire raw data:
 if channel == 1
-fwrite(visaObj, 'C1:WF? DAT2');
+    fwrite(visaObj, 'C1:WF? DAT2');
 else
-fwrite(visaObj, 'C2:WF? DAT2');
+    fwrite(visaObj, 'C2:WF? DAT2');
 end
 flushoutput(visaObj);
 rawData = fread(visaObj);
@@ -74,8 +74,8 @@ fclose(visaObj);
 delete(visaObj);
 clear visaObj;
 
-% extract raw data:
-data = rawData((DATA_HEADER_LENGTH+1):(end-2));
+% extract measurement data:
+data = rawData((DATA_HEADER_LENGTH+1):(end-DATA_END_LENGTH));
 
 % determine output array size:
 outputSize = size(data);
@@ -87,7 +87,6 @@ for i = 1:1:outputSize
 end
 
 % decode raw data:
-data = rawData((DATA_HEADER_LENGTH+1):(end-2));
 dataOut = zeros(outputSize);
 for i = 1:1:outputSize
     if data(i) > 127

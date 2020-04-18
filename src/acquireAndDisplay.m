@@ -50,7 +50,9 @@ yMax = max(dataOut) + borderDist;
 figure('Name', 'Acquired Scope Data');
 plot(timeOut, dataOut);
 xlim([xMin, xMax]);
-ylim([yMin, yMax]);
+if yMin ~= yMax
+    ylim([yMin, yMax]);
+end
 title('Signal in Time Domain');
 xlabel('Time [s]');
 ylabel('Amplitude [V]');
