@@ -13,7 +13,7 @@ function [vDiv, tDiv, offs, sCount, sRate] = determineAcquisitionSettings(connSt
 %sCount   :  sample count
 %sRate    :  sample rate
 %
-%Version: 1.0.0  |  Date: 14.04.2020  |  Daniel Duller
+%Version: 1.0.1  |  Date: 18.04.2020  |  Daniel Duller
 
 % define constants:
 INPUT_BUFFER_SIZE = 2^9;   % 512 bytes

@@ -11,7 +11,7 @@ function acquireAndDisplay(connStr, channel)
 %channel  :  enter 1 for 1st or 2 for 2nd channel
 %            or enter 12 for both channels
 %
-%Version: 1.0.0  |  Date: 14.04.2020  |  Daniel Duller
+%Version: 1.0.1  |  Date: 18.04.2020  |  Daniel Duller
 
 % define constants:
 DEFAULT_IP = '10.0.0.12';
